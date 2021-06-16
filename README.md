@@ -1,1 +1,1 @@
-# ovlg-internship
+# ovlg-financial-education

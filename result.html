@@ -1,0 +1,276 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beck Depression Inventory</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+
+.resultBox {
+	border: 1px solid #ddd;
+	padding: 15px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px #ddd;
+}
+.resultGraph {
+	display: flex;
+}
+.graphItem {
+	width: 15px;
+	height: 30px;
+	margin-right: 2px;
+}
+
+.graphEmptyItem {
+	width: 15px;
+	height: 30px;
+	margin-right: 2px;
+	background: #ddd;
+}
+
+.greenItem {
+	background: green;
+    padding: 6px 10px;
+}
+
+.blueItem {
+	background: blue;
+    padding: 6px 10px;
+}
+
+.orangeItem {
+	background: orange;
+    padding: 6px 10px;
+}
+
+.redItem {
+	background: #b50101;
+    padding: 6px 10px;
+}
+
+.graybox .graphItem {
+    background-color: #b50101; /* rgb(139, 0, 0); */
+}
+
+.mar-right-20 {
+
+    margin-right: 300px;
+
+}
+
+.mar-left-20 {
+
+    margin-left: 300px;
+}
+</style>
+
+</head>
+<!-- BODY -->
+
+<body>
+    <nav id="headerSection" class="navbar navbar-default" style="background: #fff;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar-header col-sm-8 col-md-8">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="pad-10" href="/">
+                        <img src="logo.png" alt="SC logo" align="left" class="img-responsive logo" width="60" height="60" style="padding: 5px 0;"></a>
+                    <div class="headerText" style="float: right;">
+                        <div class="text-center">
+                            <h1 style="margin: 5px;">Beck Depression Inventory</h1>
+                            <h5 class="announcement">Users are not tracked on this page.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse col-sm-4 col-md-4 navbar-right" id="myNavbar"
+                    style="padding-top: 15px;margin: 5px;">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/bdi">Detection</a></li>
+                        <li><a href="/bdi/faq">Faq</a></li>
+                        <li class="dropdown lang">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Lang
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="text-center active"><a href="/bdi">English</a></li>
+                                <li class="text-center"><a href="/bdi/es">Española</a></li>
+                                <li class="text-center"><a href="/bdi/hi">हिंदी</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center" style="margin-top:0px">
+        <!-- <h1>Are you depressed?</h1> -->
+    </div>
+    <div class="container ">
+
+        <div class="resultBox">   
+            <p >Your BDI score is : <b>76</b></p>   
+            <p>Scores in the 60-100 range are indicative of <b>severe depression</b> levels.</p>
+
+            <div class="resultGraph graybox"> 
+
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+                <div class="graphItem"></div>
+
+
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                <div class="graphEmptyItem"></div>
+                
+            </div>
+
+            <br />
+
+            <div class="progress">
+                <div class="progress-bar blueItem" style="width: 20%">
+                  <span class="sr-only">35% Complete (success)</span>
+                </div>
+                <div class="progress-bar greenItem progress-bar-striped" style="width: 20%">
+                  <span class="sr-only">20% Complete (warning)</span>
+                </div>
+                <div class="progress-bar orangeItem" style="width: 20%">
+                  <span class="sr-only">10% Complete (danger)</span>
+                </div>
+                <div class="progress-bar redItem" style="width: 40%">
+                  <span class="sr-only">10% Complete (danger)</span>
+                </div>
+            </div>
+
+            <p>&nbsp;</p>
+            <p><span class="graphItem blueItem"></span> — minimal</p>
+            <p><span class="graphItem greenItem"></span> — mild</p>
+            <p><span class="graphItem orangeItem"></span> — moderate</p>
+            <p><span class="graphItem redItem"></span> — severe</p>
+                        
+        </div>
+
+
+        <div class="resultBox">   
+
+            <p> <b> Individual symptoms: </b></p> 
+
+            <table class="table table-striped" style="width:75%;">
+                <thead>
+                  <tr><th>Symptom</th><th> </th><th>Score</th> </tr>
+                </thead>
+                <tbody>
+                <tr><td colspan="3" >1. Sadness</td></tr> 	 	
+                <tr><td colspan="3">2. Pessimism             </td></tr>
+                <tr><td colspan="3">3. Sense of failure             </td></tr> 	 	
+                <tr><td>4. Loss of pleasure</td><td>  <span class="graphItem greenItem"></span>  <span class="graphItem greenItem"></span> </td><td>2 </td></tr>
+                <tr><td colspan="3">5. Guilt</td></tr>
+                <tr><td colspan="3">6. Sense of punishment             </td></tr> 	 	
+                <tr><td colspan="3">7. Loathing             </td></tr>	 	
+                <tr><td >8. Self-incrimination</td><td> <span class="graphItem greenItem"></span> <span class="graphItem greenItem"></span>  <span class="graphItem"></span>	</td><td>2</td></tr>
+                <tr><td colspan="3">9. Suicidal ideas	 	 	 	             </td></tr>
+                <tr><td colspan="3">10. Crying             </td></tr>
+                <tr><td colspan="3"> 11. Irritability             </td></tr>	 	 	 	 	
+                <tr><td>12. Social withdrawal</td><td> <span class="graphItem orangeItem"></span> <span class="graphItem orangeItem"></span>   <span class="graphItem orangeItem"> </span> </td><td>3</td></tr>
+                <tr><td colspan="3">13. Indecision             </td></tr>
+                <tr><td colspan="3">14. Feelings of wothlessness	             </td></tr>	 	 	
+                <tr><td >15. Difficulty of concentration</td><td> <span class="graphItem redItem"></span> <span class="graphItem redItem"></span>  <span class="graphItem redItem"></span><span class="graphItem redItem"></span>	</td><td>4</td></tr> 	 	
+                <tr><td colspan="3">16. Change of sleep             </td></tr>
+                <tr><td colspan="3">17. Fatigue             </td></tr>	 		 	 	 	
+                <tr><td colspan="3">18. Changes in appetite             </td></tr> 	 	
+                <tr><td colspan="3">19. Weight changes</td></tr> 	
+                <tr><td>20. Health</td><td>  <span class="graphItem orangeItem"></span> <span class="graphItem orangeItem"></span> <span class="graphItem orangeItem"></span>  <span class="graphItem"></span></td><td>3</td></tr>
+                <tr><td colspan="3">21. Loss of interest in sex</td></tr>
+                </tbody>
+              </table>
+        </div>
+
+
+    </div>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"
+        integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- CUSTOM -->
+    <!-- <script src="../app.js"></script> -->
+
+
+</body>
+
+</html>
