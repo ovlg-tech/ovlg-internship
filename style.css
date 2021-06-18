@@ -57,6 +57,10 @@
 	color: #89d298;
 }*/
 
+.pad-10 {
+	padding: 10px;;
+}
+
 .btn-agree.active,
 .btn-agree:active,
 .btn-agree:focus,
