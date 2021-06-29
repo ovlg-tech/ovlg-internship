@@ -260,6 +260,18 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+.round-icon {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  background: #fff;
+  text-align: center;
+  line-height: 65px;
+  color: #4d4a49;
+  border-radius: 100%;
+  font-size: 1.4rem;
+  border: #4d4a49 solid 1px;
+}
 @media screen and (max-width: 768px) {
   .xs-align-right {
     text-align: right;
